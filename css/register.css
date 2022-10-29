@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 2px solid gray;
+    height: 300px;
+    width: 80%;
+    min-width: 420px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.container h1 {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.container form {
+    padding-left: 20px;
+}
+
+.container form input {
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.container form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #6d6d6d;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color: #4d4d4d;
+}
+
+.input-group {
+    width: 377px;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
